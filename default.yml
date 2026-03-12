@@ -14,9 +14,9 @@ org_settings:
     server_url: $FLEET_URL
   org_info:
     org_name: DTKB
-webhook_settings:
-  activities_webhook:
-    enable_activities_webhook: true
-    destination_url: https://webhook.site/ef6be426-73e7-42c2-8889-f211badc5e78
+  webhook_settings:
+    activities_webhook:
+      enable_activities_webhook: true
+      destination_url: https://webhook.site/ef6be426-73e7-42c2-8889-f211badc5e78
   secrets:
     - secret: "$FLEET_GLOBAL_ENROLL_SECRET"
