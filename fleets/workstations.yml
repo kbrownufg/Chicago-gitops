@@ -12,7 +12,7 @@ controls:
     custom_settings:
       - path: ../lib/ios/configuration-profiles/passcode-settings.json
 software:
-  Packages:
+  packages:
     - path: ../lib/macos/software/zoom.yml
       self_service: true
       setup_experience: true
