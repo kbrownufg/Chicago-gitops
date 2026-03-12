@@ -8,7 +8,7 @@ settings:
   secrets:
     - secret: "$FLEET_WORKSTATIONS_ENROLL_SECRET"
 
-- name: C-Suite
-  description: Hosts belonging to the fancy people
-  label_membership_type: manual
-  hosts:
+    - name: C-Suite
+      description: Hosts belonging to the fancy people
+      label_membership_type: manual
+      hosts:
