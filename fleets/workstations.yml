@@ -1,8 +1,11 @@
 name: "💻 Workstations"
 policies:
+  - path: ../lib/macos/policies/dns-resolvers.policies.yml
 reports:
 agent_options:
 controls:
+  scripts:
+    - path: ../lib/macos/scripts/set-dns-cloudflare.sh
   scripts:
     - path: ../lib/windows/scripts/set-wallpaper.ps1
   macos_settings:
