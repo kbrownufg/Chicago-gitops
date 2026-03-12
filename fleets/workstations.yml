@@ -3,6 +3,9 @@ policies:
 reports:
 agent_options:
 controls:
+  macos_settings:
+    custom_settings:
+      - path: ../lib/ios/configuration-profiles/passcode-settings.json
 software:
 settings:
   secrets:
